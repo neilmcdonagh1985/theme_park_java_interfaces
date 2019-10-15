@@ -23,4 +23,8 @@ public abstract class Stall {
     public ParkingSpot getParkingSpot() {
         return parkingSpot;
     }
+
+    public int getRating(int rating) {
+        return rating;
+    }
 }
