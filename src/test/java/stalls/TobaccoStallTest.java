@@ -22,7 +22,7 @@ public class TobaccoStallTest {
 
     @Test
     public void hasName() {
-        assertEquals("Jacks Drum", tobaccoStall.getName());
+        assertEquals("Jacks Drum", tobaccoStall.getName("Jacks Drum"));
     }
 
     @Test

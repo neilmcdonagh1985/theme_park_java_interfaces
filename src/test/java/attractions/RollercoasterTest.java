@@ -27,12 +27,12 @@ public class RollercoasterTest {
 
     @Test
     public void hasName() {
-        assertEquals("Blue Ridge", rollerCoaster.getName());
+        assertEquals("Blue Ridge", rollerCoaster.getName("Blue Ridge"));
     }
 
     @Test
     public void hasRating() {
-        assertEquals(10, rollerCoaster.getRating());
+        assertEquals(10, rollerCoaster.getRating(10));
     }
 
     @Test

@@ -16,19 +16,19 @@ public class DodgemTest {
 
     @Test
     public void hasName() {
-        assertEquals("Bumper Cars", dodgems.getName());
+        assertEquals("Bumper Cars", dodgems.getName("Bumper Cars"));
     }
 
     @Test
     public void hasRating() {
-        assertEquals(5, dodgems.getRating());
+        assertEquals(5, dodgems.getRating(5));
     }
 
     @Test
     public void hasVisitCount() {
         assertEquals(0, dodgems.getVisitCount());
     }
-//
+
     @Test
     public void getDefaultPrice() {
         assertEquals(4.50, dodgems.defaultPrice(), 0.01);

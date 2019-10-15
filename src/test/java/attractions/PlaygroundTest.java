@@ -20,12 +20,12 @@ public class PlaygroundTest {
 
     @Test
     public void hasName() {
-        assertEquals("Fun Zone", playground.getName());
+        assertEquals("Fun Zone", playground.getName("Fun Zone"));
     }
 
     @Test
     public void hasRating() {
-        assertEquals(7, playground.getRating());
+        assertEquals(7, playground.getRating(7));
     }
 
     @Test

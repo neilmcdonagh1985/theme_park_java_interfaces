@@ -17,7 +17,7 @@ public class CandyflossStallTest {
 
     @Test
     public void hasName() {
-        assertEquals("Candy Land", candyflossStall.getName());
+        assertEquals("Candy Land", candyflossStall.getName("Candy Land"));
     }
 
     @Test

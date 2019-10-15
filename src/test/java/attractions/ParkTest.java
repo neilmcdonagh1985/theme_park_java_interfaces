@@ -16,12 +16,12 @@ public class ParkTest {
 
     @Test
     public void hasName() {
-        assertEquals("Leafy Meadows", park.getName());
+        assertEquals("Leafy Meadows", park.getName("Leafy Meadows"));
     }
 
     @Test
     public void hasRating() {
-        assertEquals(9, park.getRating());
+        assertEquals(9, park.getRating(9));
     }
 
     @Test
